@@ -23,6 +23,7 @@ h2 {
 li {
     margin-bottom: 10px;
 }
+<style>
 a {
   display: inline-block;
   margin: 5px;
@@ -31,8 +32,10 @@ a {
   color: white;
   text-decoration: none;
   border-radius: 5px;
+  transition:0.3s;
 }
 
 a:hover {
   background-color: red;
 }
+</style>
