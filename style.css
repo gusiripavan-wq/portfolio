@@ -39,3 +39,7 @@ a:hover {
   background-color: red;
 }
 </style>
+.container p {
+  margin: 10px 0;
+}
+
