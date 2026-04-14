@@ -103,4 +103,18 @@ a:hover {
     transform: translateY(0);
   }
 }
+.btn {
+  display: inline-block;
+  background: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  margin-top: 15px;
+  transition: 0.3s;
+}
+.btn:hover {
+  background: #45a049;
+  transform: scale(1.05);
+}
 
