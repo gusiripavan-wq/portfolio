@@ -23,3 +23,16 @@ h2 {
 li {
     margin-bottom: 10px;
 }
+a {
+  display: inline-block;
+  margin: 5px;
+  padding: 8px 15px;
+  background-color: green;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: darkgreen;
+}
