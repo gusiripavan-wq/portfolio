@@ -32,6 +32,19 @@ li {
     margin-bottom: 10px;
 }
 <style>
+h2 {
+  color: #4CAF50;
+  margin-top: 20px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 a {
   display: inline-block;
   margin: 5px;
