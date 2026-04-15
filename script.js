@@ -21,3 +21,5 @@ function getWeather() {
             console.log("Error:", error);
         });
 }
+
+console.log(data);
