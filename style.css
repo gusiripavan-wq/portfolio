@@ -118,4 +118,42 @@ a:hover {
   transform: scale(1.05);
 }
 
+.todo-container {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 15px;
+  width: 300px;
+  margin-top: 20px;
+}
+
+.todo-container input {
+  width: 70%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.todo-container button {
+  padding: 10px;
+  background: #00ff99;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.todo-container ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.todo-container li {
+  background: #334155;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
 
