@@ -91,9 +91,12 @@ function removeTask(btn) {
   <input type="text" id="cityInput" placeholder="Enter city..." />
   <button onclick="getWeather()">Search</button>
 </div>
-             <button onclick="getWeather()">Search</button>
+        <input type="text" id="cityInput" placeholder="Enter city">
+<button onclick="getWeather()">Search</button>
+
+<div id="weatherResult"></div>
                 
-                <script>
+<script>
 async function getWeather() {
   let city = document.getElementById("cityInput").value;
 
