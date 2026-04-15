@@ -91,7 +91,6 @@ function removeTask(btn) {
   <input type="text" id="cityInput" placeholder="Enter city..." />
   <button onclick="getWeather()">Search</button>
 </div>
-        <input type="text" id="cityInput" placeholder="Enter city">
 
 <div id="weatherResult"></div>
                 
@@ -99,7 +98,7 @@ function removeTask(btn) {
 async function getWeather() {
   let city = document.getElementById("cityInput").value;
 
-  let apiKey = "YOUR_API_KEY"; // ikkada nee key pettu
+  let apiKey = "2a0d87abb91d7cafc7e1f9b4976f551e"; 
 
   let url = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
