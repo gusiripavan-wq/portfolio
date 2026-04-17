@@ -34,4 +34,7 @@ function openWeather() {
     behavior: "smooth"
   });
 }
+function openWeatherApp() {
+    window.open("https://gusiripavan-wq.github.io/weather-app/", "_blank");
+}
 
