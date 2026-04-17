@@ -99,13 +99,15 @@ function removeTask(btn) {
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('sw.js');
 }
-</script>
-                <h2 id="weather">Weather App</h2>
-                <h3>Weather App</h3>
+</script><h2>Weather App</h2>
 
-<a href="https://gusripavan-wq.github.io/weather-app/" target="_blank">
-  <button>Open Weather App</button>
-</a>
+<div class="weather-container">
+    <input type="text" id="cityInput" placeholder="Enter city..." />
+    <button onclick="getWeather()">Search</button>
+</div>
+
+<div id="weatherResult"></div>
+                
                 
   </li>
                 <li>
