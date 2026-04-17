@@ -23,3 +23,7 @@ function getWeather() {
 }
 
 console.log(data);
+
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js');
+}
