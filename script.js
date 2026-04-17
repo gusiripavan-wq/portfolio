@@ -27,5 +27,11 @@ console.log(data);
 self.addEventListener('install', e => {
   console.log("Installed");
 });
-
 self.addEventListener('fetch', e => {});
+
+function openWeather() {
+  document.getElementById("weather").scrollIntoView({
+    behavior: "smooth"
+  });
+}
+
