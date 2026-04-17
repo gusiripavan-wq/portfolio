@@ -24,6 +24,8 @@ function getWeather() {
 
 console.log(data);
 
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('sw.js');
-}
+self.addEventListener('install', e => {
+  console.log("Installed");
+});
+
+self.addEventListener('fetch', e => {});
